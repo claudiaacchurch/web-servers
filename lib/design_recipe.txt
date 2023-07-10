@@ -1,0 +1,15 @@
+GET /names?add=<str>
+
+test examples:
+
+get/name?add=Eddie
+expected response = 200
+response = Julia, Alice, Karim, Eddie
+
+get/name?add=Tom 
+expected response = 200
+response = Julia, Alice, Karim, Tom
+
+get/name?add=Eddie,Tom 
+expected reponse = 200
+response = Alice, Eddie, Julia, Karim, Tom 
